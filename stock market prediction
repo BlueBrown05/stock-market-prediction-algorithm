@@ -1,5 +1,5 @@
 //this code isn't responding anymore due to datasets links being removed by the original poster
-//though in the next file i have attached the report which showcases the working of this algorithm
+Though in the next file i have attached the image which showcases the working of this algorithm.
 import pandas as pd
 data=pd.read_csv("https://www.quandl.com/api/v3/datasets/EOD/MSFT.CSV?api_key=sG1gRzNEgoDwzJbfm22k")
 data.head()
