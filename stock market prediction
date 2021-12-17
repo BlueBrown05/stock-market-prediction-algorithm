@@ -1,0 +1,15 @@
+//this code isn't responding anymore due to datasets links being removed by the original poster
+//though in the next file i have attached the report which showcases the working of this algorithm
+import pandas as pd
+data=pd.read_csv("https://www.quandl.com/api/v3/datasets/EOD/MSFT.CSV?api_key=sG1gRzNEgoDwzJbfm22k")
+data.head()
+import quandl as q
+data=q.get('EOD/MSFT',auth_token='sG1gRzNegoDwzJbfm22k')
+data.head()
+from sklearn.linear_model import LinearRegression
+import numpy as np
+from scipy.ndimage. interpolation import shift
+data.columns
+dt=data[['Adj_Open', 'Adj_High', 'Adj_Low', 'Adj_close', 'Adj_Volume']]
+
+ dt.columns
